@@ -7,12 +7,13 @@
       <Sobre id="sobre" class="corfundo"/>
       <Programacao id="programacao" class="corfundo1"/>
       <Parallax/>
+      <Footer id="contato"/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+
 
 import Toolbar from './components/Toolbar'
 import Header from './components/Header'
@@ -25,7 +26,7 @@ import Toolbar2 from './components/Toolbar2'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    
     
     Toolbar,
     Footer,
@@ -40,7 +41,9 @@ export default {
       //
     }
   }
-}
+};
+
+
 </script>
 <style>
 
@@ -56,8 +59,6 @@ export default {
   text-align: center;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 </style>

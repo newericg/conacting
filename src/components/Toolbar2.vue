@@ -17,7 +17,7 @@
         </v-flex>
         <v-flex>
           <v-flex d-flex>
-          <v-btn flat href="https://github.com/vuetifyjs/vuetify/releases/latest" target="_blank">
+          <v-btn flat href="" >
             <span class="mr-2">Inscrição</span>
           </v-btn>
           </v-flex>
@@ -27,12 +27,12 @@
           </v-btn>
           </v-flex>
           <v-flex d-flex>
-          <v-btn flat href="https://github.com/vuetifyjs/vuetify/releases/latest" target="_blank">
+          <v-btn flat href="">
             <span class="mr-2">Local</span>
           </v-btn>
           </v-flex>
           <v-flex d-flex>
-          <v-btn flat href="https://github.com/vuetifyjs/vuetify/releases/latest" target="_blank">
+          <v-btn flat href="#contato">
             <span class="mr-2">Contato</span>
           </v-btn>
           </v-flex>

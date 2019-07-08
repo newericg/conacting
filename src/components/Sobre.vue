@@ -19,9 +19,6 @@
             confirmaram a ação de governos para manter a população mundial sob vigilância e monitoramente constante.
         </h4>
       </v-flex>
-
-
-      
     </v-layout>
   </v-container>
 </template>

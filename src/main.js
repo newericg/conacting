@@ -11,14 +11,14 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueAnalytics from 'vue-analytics'
 import 'bootstrap/dist/css/bootstrap.css'
-
-
+import vueSmoothScroll from 'vue-smooth-scroll'
 
 
 
 
 library.add(faCoffee)
 
+Vue.use(vueSmoothScroll)
 
 Vue.use(Vuetify)
 
