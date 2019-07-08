@@ -1,28 +1,63 @@
 <template>
-  <b-container fluid>
-      
-    <transition name="component-fade" mode="out-in">
-      <router-view></router-view>
-    </transition>
-  
-    
-  </b-container>     
+  <v-app fluid>
+    <v-content>
+      <Toolbar/>
+      <Toolbar2/>
+      <Header/>
+      <Sobre id="sobre" class="corfundo"/>
+      <Programacao id="programacao" class="corfundo1"/>
+      <Parallax/>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
+import HelloWorld from './components/HelloWorld'
 
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
+import Toolbar from './components/Toolbar'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Parallax from './components/Parallax'
+import Sobre from './components/Sobre'
+import Programacao from './components/Programacao'
+import Toolbar2 from './components/Toolbar2'
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld,
+    
+    Toolbar,
+    Footer,
+    Parallax,
+    Header,
+    Sobre,
+    Programacao,
+    Toolbar2,
+  },
+  data () {
+    return {
+      //
+    }
+  }
+}
+</script>
+<style>
+
+.corfundo{
+  background-color: black
 }
 
-import Footer from './components/Footer'
-import Nav from './components/Nav'
+.corfundo1{
+  background-color: rgb(43, 43, 43)
+}
 
-const components = {
-    Footer,
-    Nav,
-  }
-  export default {
-    components
-  }
-</script>
+.texto{
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+</style>
