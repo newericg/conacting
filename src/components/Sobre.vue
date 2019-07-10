@@ -1,6 +1,6 @@
 <template>
   <v-container pt-5 pb-5 fluid>
-    <v-layout id="sobre" row mt-4 mb-4 justify-center class="white--text">
+    <v-layout row mt-4 mb-4 justify-center class="white--text">
       <v-flex d-flex sm10 xs10 text-center justify-center>
         <v-img :src="require('../assets/LOGO11.png')" max-width="700px"></v-img>
       </v-flex>

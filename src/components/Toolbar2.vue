@@ -11,7 +11,7 @@
     <v-navigation-drawer dark app v-model="drawer" temporary>
       <v-layout row mt-4 column>
         <v-flex d-flex>
-          <v-btn flat href="#sobre">
+          <v-btn flat @click.prevent="scrollTo('sobre')" href="#sobre">
             <span class="mr-2">Sobre</span>
           </v-btn>
         </v-flex>
@@ -22,7 +22,7 @@
           </v-btn>
           </v-flex>
           <v-flex d-flex>
-          <v-btn flat href="#programacao">
+          <v-btn flat @click.prevent="scrollTo('programacao')" href="#programacao">
             <span class="mr-2">Programação</span>
           </v-btn>
           </v-flex>
@@ -48,18 +48,16 @@
     data() {
       return {
         drawer: null,
-        items: [{
-            title: 'Home',
-            icon: 'dashboard'
-          },
-          {
-            title: 'About',
-            icon: 'question_answer'
-          }
-        ],
+        
         mini: false,
         right: null
       }
+    },
+    methods: {
+      scrollTo: function(id){     
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' })
+      }
     }
   }
+  
 </script>

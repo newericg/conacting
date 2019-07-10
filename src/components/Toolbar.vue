@@ -1,9 +1,9 @@
 <template>
 
   <v-toolbar app dark class="hidden-sm-and-down">
-    <v-btn @click.prevent="scrollTo('header')">
-      <img :src="require('../assets/LOGO2.png')" width="200">
-    </v-btn>
+    
+      <img @click.prevent="scrollTo('header')" :src="require('../assets/LOGO2.png')" width="200">
+    
     <v-spacer></v-spacer>
     <v-btn @click.prevent="scrollTo('sobre')" href="#sobre" flat>
       <span class="mr-2">Sobre</span>
