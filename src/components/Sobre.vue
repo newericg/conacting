@@ -1,10 +1,10 @@
 <template>
-  <v-container pt-5 pb-5 fluid height="">
-    <v-layout row mt-4 mb-4 justify-center class="white--text">
-      <v-flex d-flex sm10 xs8 text-center justify-center>
+  <v-container pt-5 pb-5 fluid>
+    <v-layout id="sobre" row mt-4 mb-4 justify-center class="white--text">
+      <v-flex d-flex sm10 xs10 text-center justify-center>
         <v-img :src="require('../assets/LOGO11.png')" max-width="700px"></v-img>
       </v-flex>
-      <v-flex mt-4 pt-4 d-flex sm8 xs9 class="texto">
+      <v-flex mt-4 pt-4 d-flex sm10 xs10 class="texto">
         <h4>
             Entre os dias 3 e 4 de maio de 2019 será realizada a sexta edição da CryptoRave, evento anual que reúne, em
             36
