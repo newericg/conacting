@@ -10,7 +10,7 @@
     </v-toolbar>
     <v-navigation-drawer dark app v-model="drawer" temporary>
       <v-layout row mt-4 column>
-        <v-flex d-flex>
+        <v-flex d-flex @click="drawer = !drawer">
           <v-btn flat @click.prevent="scrollTo('sobre')" href="#sobre">
             <span class="mr-2">Sobre</span>
           </v-btn>
@@ -21,7 +21,7 @@
             <span class="mr-2">Inscrição</span>
           </v-btn>
           </v-flex>
-          <v-flex d-flex>
+          <v-flex d-flex @click="drawer = !drawer">
           <v-btn flat @click.prevent="scrollTo('programacao')" href="#programacao">
             <span class="mr-2">Programação</span>
           </v-btn>
