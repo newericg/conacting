@@ -1,5 +1,5 @@
 <template>
-  <v-container pb-5 fluid>
+  <v-container pt-5 pb-5 fluid>
     <v-layout row mb-4 justify-center class="white--text">
       <v-flex d-flex sm10 xs10 text-center>
         <h1>Programação</h1>

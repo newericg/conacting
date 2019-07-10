@@ -113,7 +113,9 @@ export default {
 
 .texto{
   text-align: center;
+  font-family: 'Inconsolata', monospace;
 }
+
 
 
 
