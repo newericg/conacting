@@ -7,8 +7,8 @@
       <Sobre id="sobre" class="corfundo"/>
       <Programacao id="programacao" class="corfundo"/>
       <Parallax/>
-      <Footer id="contato"/>
     </v-content>
+    <Footer id="contato"/>
   </v-app>
 </template>
 
@@ -28,6 +28,8 @@ import Home from './components/Home'
 
 
 export default {
+  scrollTo: function(id){     
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' })},
   name: 'App',
   components: {
     
@@ -66,12 +68,5 @@ export default {
 }
 
 
-.toolbarcor{
-  background: rgba(0, 0, 0, 0) !important;
-}
-
-.toolbarcor2{
-  background-color: black !important;
-}
 
 </style>
