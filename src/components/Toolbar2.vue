@@ -1,11 +1,9 @@
 <template>
   <v-flex class="hidden-md-and-up">
-    <v-toolbar app dark class="hidden-md-and-up">
+    <v-toolbar flat app dark class="hidden-md-and-up toolbarcor white--text mynav">
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-spacer></v-spacer>
-      <router-link to="home">
-        <img :src="require('../assets/LOGO2.png')" height="200">
-      </router-link>
+      <img @click.prevent="scrollTo('header')" :src="require('../assets/LOGO2.png')" width="200">
       <v-spacer></v-spacer>
     </v-toolbar>
     <v-navigation-drawer dark app v-model="drawer" temporary>

@@ -2,7 +2,9 @@
 <template>
   <v-parallax
     dark
-    :src="require('../assets/plateia.png')"
+    :src="require('../assets/HEADER1.jpg')"
+    class="w-20"
+    
   >
     <v-layout
       align-center
