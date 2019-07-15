@@ -5,6 +5,10 @@
         <v-img :src="require('../assets/LOGO11.png')" max-width="700px"></v-img>
       </v-flex>
       <v-flex mt-4 pt-4 d-flex sm10 xs10 class="texto">
+      <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+
         <h4>
             Entre os dias 3 e 4 de maio de 2019 será realizada a sexta edição da CryptoRave, evento anual que reúne, em
             36
@@ -18,6 +22,7 @@
             criptografia e software livre, o evento teve início em 2014, como reação à divulgação de informações que
             confirmaram a ação de governos para manter a população mundial sob vigilância e monitoramente constante.
         </h4>
+        </div>
       </v-flex>
     </v-layout>
   </v-container>

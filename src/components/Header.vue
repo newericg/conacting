@@ -1,7 +1,8 @@
 <template>
-  <section class="fundo">
+  <section class="fundot">
     <v-flex pt-0>
-    <img :src="require('../assets/HEADER5.jpg')" class="w-100">
+    <div style="height:600px">
+    </div>
     </v-flex>
   </section>
   
@@ -11,6 +12,10 @@
 <style>
 .fundo{
   background-color: black;
+}
+
+.fundot{
+  background-color: transparent;
 }
 </style>
 

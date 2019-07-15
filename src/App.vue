@@ -1,5 +1,6 @@
 <template>
   <v-app fluid>
+  <img :src="require('./assets/HEADER5.jpg')" id="bg" alt="">
       <Toolbar/>
       <Toolbar2/>
     <v-content class="corfundo">
@@ -28,8 +29,7 @@ import Home from './components/Home'
 
 
 export default {
-  scrollTo: function(id){     
-        document.getElementById(id).scrollIntoView({ behavior: 'smooth' })},
+  
   name: 'App',
   components: {
     
@@ -57,7 +57,17 @@ export default {
 
 </script>
 <style>
-
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  max-width: 100%;
+  min-width:50%;
+  height: auto;
+  min-height: 80%;
+}
 .corfundo{
   background-color: black
 }

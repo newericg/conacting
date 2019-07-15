@@ -12,9 +12,11 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueAnalytics from 'vue-analytics'
 import 'bootstrap/dist/css/bootstrap.css'
 import vueSmoothScroll from 'vue-smooth-scroll'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
-
+AOS.init();
 
 library.add(faCoffee)
 
