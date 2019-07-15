@@ -63,10 +63,10 @@ export default {
   left: 0; 
 	
   /* Preserve aspet ratio */
-  max-width: 100%;
-  min-width:50%;
-  height: auto;
-  min-height: 80%;
+  min-width: 50%;
+  min-height: 50%;
+  
+
 }
 .corfundo{
   background-color: black

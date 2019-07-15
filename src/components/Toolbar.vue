@@ -38,7 +38,7 @@ export default {
     scrollTo: function(id){     
         document.getElementById(id).scrollIntoView({ behavior: 'smooth' })},
     update_scrolled_down() {
-      this.scrolled_down = (window.scrollY > 500)
+      this.scrolled_down = (window.scrollY > 570)
     },
     
   },
