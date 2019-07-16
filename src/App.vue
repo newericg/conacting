@@ -1,10 +1,11 @@
 <template>
   <v-app fluid>
-  <img :src="require('./assets/HEADER6.jpg')" id="bg" alt="">
+  <img :src="require('./assets/HEADER4.jpg')" id="bg" alt="">
       <Toolbar/>
       <Toolbar2/>
     <v-content class="corfundo">
       <Header id="header"/>
+      <Header2 class="corfundo2"/>
       <Sobre id="sobre" class="corfundo"/>
       <Programacao id="programacao" class="corfundo"/>
       <Parallax/>
@@ -18,6 +19,7 @@
 import smoothscroll from 'smoothscroll-polyfill'
 import Toolbar from './components/Toolbar'
 import Header from './components/Header'
+import Header2 from './components/Header2'
 import Footer from './components/Footer'
 import Parallax from './components/Parallax'
 import Sobre from './components/Sobre'
@@ -38,6 +40,7 @@ export default {
     Footer,
     Parallax,
     Header,
+    Header2,
     Sobre,
     Programacao,
     Toolbar2,
@@ -71,6 +74,10 @@ export default {
 }
 .corfundo{
   background-color: black
+}
+
+.corfundo2{
+  background-color: transparent;
 }
 
 .texto{

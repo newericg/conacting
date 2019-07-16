@@ -4,6 +4,7 @@
     <div class="sizediv">
     </div>
     </v-flex>
+    
   </section>
   
 
@@ -19,7 +20,7 @@
 }
 
 .sizediv{
-  height: 100vh;
+  height: 50vh;
   min-height: 100%;
 
 }
