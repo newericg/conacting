@@ -1,5 +1,5 @@
 <template>
-  <v-container pt-2 pb-5 fluid>
+  <v-container pt-5 pb-5 fluid>
     <v-layout row mb-4 justify-center class="white--text">
       <v-flex pt-5 mt-5 d-flex sm10 xs10 text-center justify-center>
         <h1>Sobre</h1>
