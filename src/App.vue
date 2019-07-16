@@ -63,11 +63,10 @@ export default {
   left: 0; 
 	
   /* Preserve aspet ratio */
-  max-width:150%;
-  min-width: 60%;
-  min-height: 60%;
-  width: auto;
-  height: auto;
+  min-width: 165%;
+  max-width: 165%;
+  overflow: hidden;
+  
 
 }
 .corfundo{

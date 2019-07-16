@@ -1,7 +1,7 @@
 <template>
   <v-container pt-5 pb-5 fluid>
     <v-layout row mb-4 justify-center class="white--text">
-      <v-flex d-flex sm10 xs10 text-center>
+      <v-flex pt-5 d-flex sm10 xs10 text-center>
         <h1>Programação</h1>
       </v-flex>
       <v-flex pt-3 mt-4 d-flex sm10 xs10 class="texto">
