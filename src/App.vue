@@ -1,6 +1,6 @@
 <template>
   <v-app fluid>
-  <img :src="require('./assets/HEADER7.jpg')" id="bg" alt="">
+  <img :src="require('./assets/HEADER6.jpg')" id="bg" alt="">
       <Toolbar/>
       <Toolbar2/>
     <v-content class="corfundo">
