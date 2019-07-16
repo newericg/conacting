@@ -1,6 +1,6 @@
 <template>
   <v-app fluid>
-  <img :src="require('./assets/HEADER5.jpg')" id="bg" alt="">
+  <img :src="require('./assets/HEADER7.jpg')" id="bg" alt="">
       <Toolbar/>
       <Toolbar2/>
     <v-content class="corfundo">
@@ -63,8 +63,8 @@ export default {
   left: 0; 
 	
   /* Preserve aspet ratio */
-  min-width: 50%;
-  min-height: 50%;
+  min-width: 100%;
+  min-height: 100%;
   
 
 }
