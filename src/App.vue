@@ -63,9 +63,9 @@ export default {
   left: 0; 
 	
   /* Preserve aspet ratio */
-  max-width:200%;
-  min-width: 80%;
-  min-height: 80%;
+  max-width:150%;
+  min-width: 60%;
+  min-height: 60%;
   width: auto;
   height: auto;
 
