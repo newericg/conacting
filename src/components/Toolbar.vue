@@ -15,7 +15,7 @@
     <v-btn flat class="white--text" @click.prevent="scrollTo('programacao')" href="#programacao">
       <span class="mr-2">Programação</span>
     </v-btn>
-    <v-btn flat class="white--text" href="">
+    <v-btn flat class="white--text" @click.prevent="scrollTo('local')" href="">
       <span class="mr-2">Local</span>
     </v-btn>
     <v-btn flat class="white--text" @click="scrollTo('contato')">

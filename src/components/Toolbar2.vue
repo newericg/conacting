@@ -25,12 +25,12 @@
           </v-btn>
           </v-flex>
           <v-flex d-flex>
-          <v-btn class="white--text" flat href="">
+          <v-btn class="white--text" flat @click.prevent="scrollTo('local')" href="">
             <span class="mr-2">Local</span>
           </v-btn>
           </v-flex>
           <v-flex d-flex>
-          <v-btn class="white--text" flat href="#contato">
+          <v-btn class="white--text" @click.prevent="scrollTo('contato')" flat href="#contato">
             <span class="mr-2">Contato</span>
           </v-btn>
           </v-flex>

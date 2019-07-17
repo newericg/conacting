@@ -8,7 +8,7 @@
       <Header2 class="corfundo2"/>
       <Sobre id="sobre" class="corfundo"/>
       <Programacao id="programacao" class="corfundo"/>
-      <Parallax/>
+      <Local id="local" class="corfundo"/>
     </v-content>
     <Footer id="contato"/>
   </v-app>
@@ -26,6 +26,7 @@ import Sobre from './components/Sobre'
 import Programacao from './components/Programacao'
 import Toolbar2 from './components/Toolbar2'
 import Home from './components/Home'
+import Local from './components/Local'
 
 
 
@@ -44,6 +45,7 @@ export default {
     Sobre,
     Programacao,
     Toolbar2,
+    Local,
   },
   mounted(){
     smoothscroll.polyfill();
